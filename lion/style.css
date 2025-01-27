@@ -1,0 +1,37 @@
+body{background:url('paper.png') repeat;background-color:#ebd6a0;font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;color:#18150f;font-size:13px;}
+p{font-size:13px;}
+h1{font-size:20px;font-variant:small-caps;text-align:center;}
+h2{font-size:14px;font-style:italic;text-align:center;font-family:Georgia, serif;}
+h3{font-size:14px;font-weight:bold;font-variant:capitalize;}
+a{color:#0b0a07;}
+
+#wrap{width:600px;margin:0px auto;}
+.caption, #disclaimer{font-size:10px;font-style:italic;color:#716749;}
+
+#hr1{background:url('hr-1.png') repeat-x;width:600px;height:2px;}
+#hr2{background:url('hr-2.png') repeat-x;width:600px;height:6px;}
+
+#nav{width:600px;margin:0px auto;text-align:center;font-size:16px;color:#716749;}
+#nav ul{padding:0px;}
+#nav ul li{list-style:none;display:inline;}
+#nav ul li a{text-decoration:none;font-variant:small-caps;}
+#nav ul li a:hover{text-decoration:underline;}
+
+#banner-home{background:url('banner-latin.png') no-repeat;width:315px;height:150px;margin:auto;}
+#banner-taxonomy{background:url('banner-taxonomy.png') no-repeat;width:315px;height:150px;margin:auto;}
+#banner-anatomy{background:url('banner-anatomy.png') no-repeat;width:315px;height:150px;margin:auto;}
+#banner-ethology{background:url('banner-ethology.png') no-repeat;width:315px;height:150px;margin:auto;}
+
+#ethology1{background:url('lion-ethology1.jpg');width:200px;height:200px;}
+#ethology1:hover{background-position:0px 200px;}
+#ethology2{background:url('lion-ethology2.jpg');width:200px;height:200px;}
+#ethology2:hover{background-position:0px 200px;}
+#ethology3{background:url('lion-ethology3.jpg');width:200px;height:200px;}
+#ethology3:hover{background-position:0px 200px;}
+#ethology4{background:url('lion-ethology4.jpg');width:200px;height:200px;}
+#ethology4:hover{background-position:0px 200px;}
+
+.right-img{float:right;display:block;margin:0px 0px 5px 10px;width:200px;}
+.left-img{float:left;display:block;margin:0px 10px 5px 0px;width:200px;}
+.i{font-style:italic;}
+.b{font-weight:bold;}

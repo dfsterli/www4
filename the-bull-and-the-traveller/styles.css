@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica;
+  width: 640px;
+  margin: auto;
+  text-align: center;
+  background-color: salmon;
+  background-image: url('background.png');
+  background-repeat: repeat;
+  color: #6A150C;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+a {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  outline: 0;
+}
+#left {
+  display: inline-block;
+  width: 105px;
+}
+#center {
+  display: inline-block;
+  width: 400px;
+}
+#right {
+  display: inline-block;
+  width: 105px;
+}
+#illustration {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  background-repeat: none;
+}
+#title #illustration {
+  margin-left: 105px;
+  background-image: url('title.png');
+}
+#page1 #illustration {
+  background-image: url('i-see-the-bulls-footsteps.png');
+}
+#page2 #illustration {
+  background-image: url('i-see-the-bull.png');
+}
+#page3 #illustration {
+  background-image: url('i-grab-its-tail.png');
+}
+#page4 #illustration {
+  background-image: url('i-ride-the-bull.png');
+}
+#page5 #illustration {
+  margin-right: 105px;
+  background-image: url('i-lead-the-bull.png');
+}
+#forward {
+  display: inline-block;
+  opacity: 0.5;
+  vertical-align: top;
+  margin-top: 125px;
+  margin-left: 10px;
+  height:148px;
+  width: 95px;
+  background-image: url('forward.png');
+  background-repeat: none;
+}
+#back {
+  display: inline-block;
+  opacity: 0.5;
+  vertical-align: top;
+  margin-top: 125px;
+  margin-right: 10px;
+  height:148px;
+  width: 95px;
+  background-image: url('back.png');
+  background-repeat: none;
+}
+#back:hover, #forward:hover {
+  opacity: 1;
+}
+#title #back, #page5 #forward {
+  display: none;
+}

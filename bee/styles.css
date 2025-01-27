@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: yellow;
+  font-family: arial;
+  font-size: 14px;
+  width: 800px;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+h2, h3 {
+  font-size: 18px;
+}
+a {
+  color: orange;
+}
+img {
+  border: 3px solid yellow;
+}
+#left {
+  float: left;
+  width: 440px;
+  padding-right: 10px;
+}
+#right {
+  float: right;
+  width: 350px;
+}
+#bottom-left {
+  display: block;
+}
+#top-left {
+  display: block;
+  min-height: 115px;
+}
+video {
+  border: 17px solid orange;
+}
+#bee {
+  float: left;
+  margin: 0px 8px 8px 0px;
+}
+.big-orange {
+  font-size: 18px;
+  color: orange;
+}
